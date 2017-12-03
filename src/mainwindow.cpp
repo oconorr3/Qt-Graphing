@@ -157,7 +157,6 @@ void MainWindow::setupColorMap(QCustomPlot *customPlot) {
 
      // rescale the key (x) and value (y) axes so the whole color map is visible:
      customPlot->rescaleAxes();
-
 }
 
 void MainWindow::setupTimeBarGraph(QCustomPlot *customPlot, int time) {
